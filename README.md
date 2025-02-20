@@ -2,14 +2,10 @@
 
 Este es un pequeño proyecto personal donde he experimentado con efectos visuales en CSS y HTML. Mi objetivo principal era lograr un efecto atractivo al pasar el ratón sobre una imagen, haciendo que esta cambie de perspectiva y revele otra imagen con una animación suave. Quería explorar cómo se pueden crear efectos llamativos solo con CSS, sin necesidad de JavaScript.
 
-## Tecnologías Utilizadas
+## Lenguajes Usados
 
 - **HTML**: Para definir la estructura de la página.
 - **CSS**: Para los estilos y animaciones sin usar JavaScript.
-
-## ¿Por qué este efecto?
-
-Muchas veces, los efectos visuales complejos requieren el uso de JavaScript. Sin embargo, con las herramientas adecuadas de CSS, se pueden lograr transiciones fluidas y dinámicas sin afectar el rendimiento de la página. Además, CSS permite optimizar el renderizado en navegadores modernos, evitando sobrecargar el proceso de carga con scripts innecesarios.
 
 ## ¿Cómo funciona?
 
