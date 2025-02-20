@@ -22,12 +22,6 @@ Este es un pequeño proyecto personal donde he experimentado con efectos visuale
    - La imagen de Tux cambia su opacidad a `1` y se desplaza ligeramente hacia arriba.
    - Se agrega un degradado que oscurece progresivamente la parte inferior del artículo, logrando un efecto más inmersivo.
 
-## Notas y Avisos
-
-- Este efecto funciona mejor en navegadores modernos como Chrome, Firefox y Edge. Internet Explorer puede no renderizar correctamente algunas propiedades de CSS.
-- La transición está optimizada para que sea fluida, pero en dispositivos móviles podría no apreciarse igual que en pantallas grandes.
-- Si deseas cambiar la imagen de fondo o el personaje, simplemente edita las rutas en el HTML.
-
 ## Archivos
 
 ### `index.html`
