@@ -1,26 +1,26 @@
 # Proyecto de Animación con HTML y CSS
 
-Este proyecto muestra cómo crear un efecto visual atractivo usando HTML y CSS. Cuando pasas el cursor sobre una imagen, esta cambia de perspectiva y muestra otra imagen con un efecto de transición.
+Este es un pequeño proyecto en el que he trabajado para crear un efecto visual atractivo usando solo HTML y CSS. La idea es que cuando pases el ratón sobre una imagen, esta cambie de perspectiva y revele otra imagen con una transición suave.
 
-## Tecnologías Usadas
+## Tecnologías Utilizadas
 
-- **HTML**: Estructura del documento.
-- **CSS**: Estilos y animaciones.
+- **HTML**: Para la estructura de la página.
+- **CSS**: Para los estilos y las animaciones.
 
-## Funcionamiento
+## ¿Cómo funciona?
 
-1. Se muestran dos imágenes dentro de un `<article>`.
-2. La primera imagen (de fondo) tiene sombras y bordes redondeados.
-3. La segunda imagen (Tux) está oculta inicialmente con `opacity: 0` y se posiciona con `absolute`.
-4. Al pasar el mouse por el artículo:
+1. He colocado dos imágenes dentro de un `<article>`.
+2. La primera imagen (de fondo) tiene sombras y bordes redondeados para un efecto más estético.
+3. La segunda imagen (Tux) está oculta inicialmente con `opacity: 0` y posicionada de manera absoluta.
+4. Cuando pasas el ratón sobre el artículo:
    - Se aplica una transformación en perspectiva y rotación.
-   - Se muestra la imagen de Tux con una transición suave.
-   - Se oscurece el fondo gradualmente con un degradado.
+   - La imagen de Tux aparece con una transición suave.
+   - El fondo se oscurece gradualmente con un degradado.
 
 ## Archivos
 
 ### `index.html`
-Estructura básica con un `<article>` que contiene dos imágenes.
+Aquí defino la estructura básica con un `<article>` que contiene dos imágenes.
 
 ```html
 <article>
@@ -30,7 +30,7 @@ Estructura básica con un `<article>` que contiene dos imágenes.
 ```
 
 ### `style.css`
-Define la apariencia y las animaciones:
+Aquí doy estilo y defino las animaciones:
 
 ```css
 article:hover {
@@ -47,12 +47,9 @@ article:hover img:last-child {
 }
 ```
 
-## Cómo Usarlo
+## ¿Cómo usarlo?
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/mi-usuario/mi-repositorio.git
    ```
 2. Abre `index.html` en tu navegador.
-
-¡Disfruta del efecto visual!
-
